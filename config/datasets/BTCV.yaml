@@ -1,0 +1,50 @@
+DATASET:
+  NAME: BTCV
+  MODAILTY: ct
+  IMAGE_INFO:
+    TYPE: npz
+    MODE: null # if TYPE is npz MODE is disabled
+    KEY: img # key of npz file
+  MASK_INFO:
+    TYPE: npz # strongly recommend to use npz for mask
+    MODE: null # if TYPE is npz MODE is disabled
+    KEY: mask # key of npz file
+  FORMAT: yaml # [json, yaml]
+  TRAIN: /mnt/f/PatternRecognition/codes/config/datasets/splits/BTCV/train.yaml
+  VALIDATION: /mnt/f/PatternRecognition/codes/config/datasets/splits/BTCV/val.yaml
+  TEST: /mnt/f/PatternRecognition/codes/config/datasets/splits/BTCV/val.yaml
+  NUM_CLASSES: 14 
+  FOREGROUND_CLASSES: 13   
+  INGORE_INDEX: null       
+  LABEL:
+    0: background
+    1: spleen
+    2: rkid
+    3: lkid
+    4: gall
+    5: eso
+    6: liver
+    7: sto
+    8: aorta
+    9: IVC
+    10: veins
+    11: pancreas
+    12: rad
+    13: lad
+  COLOR:
+    0: [0, 0, 0]        # black
+    1: [255, 0, 0]      # red
+    2: [0, 255, 0]      # lime 
+    3: [0, 0, 255]      # blue
+    4: [255, 255, 0]    # yellow
+    5: [255, 0, 255]    # magenta
+    6: [0, 255, 255]    # cyan
+    7: [255, 255, 255]  # white
+    8: [255, 128, 0]    # orange 
+    9: [128, 255, 0]    # chartreuse 
+    10: [0, 128, 255]   # azure 
+    11: [255, 255, 128] # light yellow 
+    12: [128, 0, 255]   # violet 
+    13: [128, 128, 128] # gray
+  BATCH_SIZE: 4
+  NUM_WORKERS: 4

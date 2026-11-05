@@ -1,0 +1,12 @@
+- image: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/image/img0035
+  label: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/mask/label0035
+- image: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/image/img0036
+  label: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/mask/label0036
+- image: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/image/img0037
+  label: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/mask/label0037
+- image: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/image/img0038
+  label: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/mask/label0038
+- image: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/image/img0039
+  label: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/mask/label0039
+- image: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/image/img0040
+  label: /mnt/f/PatternRecognition/codes/datasets/BTCV/processed_data/mask/label0040
